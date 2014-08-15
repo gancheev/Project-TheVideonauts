@@ -1,0 +1,59 @@
+﻿#navigation {
+    width:100%;
+}
+#part1{
+    width:60%;
+    float:right;
+}
+#part2{
+    width:20%;
+    float:right;
+}
+.mission {
+    padding-top:100px;
+    padding-bottom:100px;
+}
+.btn-rounded {
+    padding-left:30px;
+    padding-right:30px;
+    border-radius:40px;
+}
+.yellow {
+    background-color: #e4c00a;
+    color: #023052;
+    font-weight: bold;
+}
+.logo {
+   display:table-cell; 
+}
+.background-background {
+    background: none;
+
+}
+.mini-menu {
+   position:fixed;
+}
+.mini-menu ul {
+    display:inline-block;
+    position:relative;
+    padding-top: 4px;
+    overflow:hidden;
+    margin-left:600px;
+}
+.mini-menu nav ul li {
+    list-style: none;
+    display:inline-block;
+}
+.mini-menu nav ul li a {
+    font-size: 12px;
+        display: inline;
+        color: white;
+        font-weight: bold;
+        margin-right: 20px;
+}
+.mini-menu nav ul li a:hover {
+    text-decoration:none;
+}
+span {
+    margin-left: 5px;
+}
