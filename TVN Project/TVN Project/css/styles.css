@@ -9,12 +9,16 @@
     border-radius:40px;
 }
 .yellow {
-    background-color: #ff6a00;
-    color: #ffffff;
+    background-color: #e4c00a;
+    color: #023052;
+    font-weight: bold;
 }
 .logo {
    display:table-cell; 
-   vertical-align:middle; 
-   text-align:center;
 }
+.background-background {
+    background: none;
+
+}
+
 
