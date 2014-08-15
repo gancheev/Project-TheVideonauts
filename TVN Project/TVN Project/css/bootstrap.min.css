@@ -11,10 +11,8 @@ html {
 }
 
 body {
-    width: 100%;
-    height: 100%;
     margin: 0;
-    padding: 0;
+    
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
@@ -1113,8 +1111,8 @@ body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #fff;
-    
+    color: #333;
+    background-color: #fff;
 }
 
 input, button, select, textarea {
@@ -1149,10 +1147,9 @@ img {
 
 .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     display: block;
-    width: 100%;
+    width: 100% \9;
     max-width: 100%;
     height: auto;
-    
 }
 
 .img-rounded {
@@ -1197,7 +1194,7 @@ hr {
 }
 
 .sr-only-focusable:active, .sr-only-focusable:focus {
-    position: relative;
+    position: static;
     width: auto;
     height: auto;
     margin: 0;
@@ -3077,7 +3074,7 @@ textarea.input-lg, select[multiple].input-lg {
     -ms-user-select: none;
     user-select: none;
     background-image: none;
-    border: 1px solid black;
+    border: 1px solid transparent;
     border-radius: 4px;
 }
 
@@ -4154,7 +4151,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 }
 
 .navbar-fixed-top, .navbar-fixed-bottom {
-    position: relative;
+    position: fixed;
     right: 0;
     left: 0;
     z-index: 1030;
@@ -4183,7 +4180,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 .navbar-brand {
     height: 30px;
     padding: 15px 0px 15px 0px;
-    font-size: 18px;    
+    font-size: 18px;
     line-height: 10px;
 }
 
@@ -4245,7 +4242,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 
 @media (max-width:767px) {
     .navbar-collapse {
-        background: #fff;
+        background-image: url("../images/map_clients_and_footer.jpg");
     }
 
     .navbar-nav .open .dropdown-menu {
@@ -4551,7 +4548,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
     }
 
     .navbar-inverse .navbar-nav > li > a {
-        color: black;
+        color: #242424;
         font-weight:700;
     }
 

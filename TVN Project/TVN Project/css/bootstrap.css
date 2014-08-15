@@ -5369,7 +5369,7 @@ button.close {
   -webkit-appearance: none;
   padding: 0;
   cursor: pointer;
-  background: white;
+  background: transparent;
   border: 0;
 }
 .modal-open {
