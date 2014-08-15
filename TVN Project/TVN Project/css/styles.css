@@ -1,7 +1,4 @@
-﻿.logo {
-    max-height:100%;
-    max-width:100%;
-}
+﻿
 .mission {
     padding-top:100px;
     padding-bottom:100px;
@@ -15,11 +12,9 @@
     background-color: #ff6a00;
     color: #ffffff;
 }
-.missiontext {
-    width:73%;
-    padding-left:350px;
-    padding-bottom:30px;
+.logo {
+   display:table-cell; 
+   vertical-align:middle; 
+   text-align:center;
 }
-.white {
-    color:#ffffff;
-}
+
