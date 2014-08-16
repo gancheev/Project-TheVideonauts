@@ -3847,13 +3847,18 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
     }
 
         .nav > li > a {
+            
             position: relative;
             display: block;
             padding: 10px 15px;
         }
 
             .nav > li > a:hover, .nav > li > a:focus {
-                text-decoration: none;
+                text-decoration: underline;
+                 transform: rotate(5deg);
+                 background-color: #008cff;
+                 border-radius: 10px;
+                
                 
             }
 
@@ -4283,7 +4288,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 
             .navbar-nav > li > a {
                 padding-top: 0px;
-                padding-bottom: 15px;
+                padding-bottom: 5px;
             }
 
         .navbar-nav.navbar-right:last-child {
