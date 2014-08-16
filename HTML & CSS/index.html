@@ -15,6 +15,8 @@
     <link rel="stylesheet" type="text/css" href="css/demo.css" />
     <link rel="stylesheet" type="text/css" href="css/component.css" />
     <script src="js/modernizr.custom.js"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script src="js/smooth.js"></script>
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -31,13 +33,13 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#"><img src="images/icon_consultation.png" /><span>REQUEST A CONSULIDATION</span></a>
+                    <a href="#"><img src="images/icon_consultation.png" /><span class="mini-img">REQUEST A CONSULIDATION</span></a>
                 </li>
                 <li>
-                    <a href="#"><img src="images/icon_chat.png" /><span>LIVE CHAT</span></a>
+                    <a href="#"><img src="images/icon_chat.png" /><span class="mini-img">LIVE CHAT</span></a>
                 </li>
                 <li>
-                    <a href="#"><img src="images/icon_login.png" /><span>LOG IN</span></a>
+                    <a href="#"><img src="images/icon_login.png" /><span class="mini-img">LOG IN</span></a>
                 </li>
             </ul>
         </nav>
@@ -54,16 +56,18 @@
                 </button>
                
             </div>
-
+            <div class="logo">
+                <a class="navbar-brand" href="#"><img src="images/logo_TVN.png" class="img-responsive" /> </a>
+            </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <div id="navigation">
                     <div id="part1">
                         <ul class="nav navbar-nav">
                             <li>
-                                <a href="#" class="text-uppercase">Talent map</a>
+                                <a href="#talentmap" class="text-uppercase">Talent map</a>
                             </li>
                             <li>
-                                <a href="#" class="text-uppercase">Blog</a>
+                                <a href="#blog" class="text-uppercase">Blog</a>
                             </li>
                             <li>
                                 <a href="#" class="text-uppercase">More Videos</a>
@@ -76,9 +80,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div id="part2">
-                        <div class="logo"> <a class="navbar-brand" href="#"><img src="images/logo_TVN.png" class="img-responsive" /> </a></div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -87,23 +89,47 @@
 
 
     <div class="container-fluid">
+        <a href="#talentmap" class="totop" role="button">BACK TO TOP</a>
+        <div id="page1">
+            <a id="talentmap"></a>
 
-        <div class="jumbotron mission">
-            <div class="row">
-                <h1 class="text-center">Our Mission</h1>
+            <div class="jumbotron mission">
+                <div class="row">
+                    <h1 class="text-center">Our Mission</h1>
 
-                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, autem, molestias, architecto rerum esse nam minima cum magni laudantium inventore eaque recusandae iste itaque possimus error eos perferendis dignissimos nulla?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, nihil, cum recusandae repellat enim minus debitis itaque autem illum ad quos nobis quibusdam dicta voluptatem ullam inventore totam aliquam sequi.</p>
+                    <p class="text-center white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, autem, molestias, architecto rerum esse nam minima cum magni laudantium inventore eaque recusandae iste itaque possimus error eos perferendis dignissimos nulla?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, nihil, cum recusandae repellat enim minus debitis itaque autem illum ad quos nobis quibusdam dicta voluptatem ullam inventore totam aliquam sequi.</p>
 
-                <p class="text-center">
-                    <a class="btn btn-primary btn-lg btn-rounded background-background" role="button">WORK WITH THE <br /> COMMUNITY</a>
-                    &nbsp;OR&nbsp;
-                    <a class="btn btn-primary btn-lg btn-rounded yellow" role="button">JOIN <br />THE COMMUNITY</a>
-                </p>
+                    <p class="text-center white">
+                        <a href="#" class="btn btn-primary btn-lg btn-rounded background-background" role="button">WORK WITH THE <br /> COMMUNITY</a>
+                        &nbsp;OR&nbsp;
+                        <a href="#" class="btn btn-primary btn-lg btn-rounded yellow" role="button">JOIN <br />THE COMMUNITY</a>
+                    </p>
+                </div>
             </div>
         </div>
 
+        <div id="page2">
+            <a id="blog"></a>
+
+            <div class="jumbotron mission">
+                <div class="row">
+                    <h1 class="text-center">Our Mission</h1>
+
+                    <p class="text-center white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, autem, molestias, architecto rerum esse nam minima cum magni laudantium inventore eaque recusandae iste itaque possimus error eos perferendis dignissimos nulla?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, nihil, cum recusandae repellat enim minus debitis itaque autem illum ad quos nobis quibusdam dicta voluptatem ullam inventore totam aliquam sequi.</p>
+
+                    <p class="text-center white">
+                        <a class="btn btn-primary btn-lg btn-rounded background-background" role="button">WORK WITH THE <br /> COMMUNITY</a>
+                        &nbsp;OR&nbsp;
+                        <a class="btn btn-primary btn-lg btn-rounded yellow" role="button">JOIN <br />THE COMMUNITY</a>
+                    </p>
+                </div>
+            </div>
+        </div>
 
     </div>
+        FOOTER
+
+    
 
     <script src="js/jquery-1.11.0.js"></script>
     <script src="js/bootstrap.min.js"></script>

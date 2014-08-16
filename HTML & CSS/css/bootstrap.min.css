@@ -3854,7 +3854,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 
             .nav > li > a:hover, .nav > li > a:focus {
                 text-decoration: none;
-                background-color: #eee;
+                
             }
 
         .nav > li.disabled > a {
@@ -4118,7 +4118,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 
 @media (max-width:480px) and (orientation:landscape) {
     .navbar-collapse {
-        background-image: url("../images/map_clients_and_footer.jpg");
+       
     }
 
     .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
@@ -4242,7 +4242,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 
 @media (max-width:767px) {
     .navbar-collapse {
-        background-image: url("../images/map_clients_and_footer.jpg");
+        background-color:#fff;
     }
 
     .navbar-nav .open .dropdown-menu {
@@ -4282,12 +4282,12 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
         }
 
             .navbar-nav > li > a {
-                padding-top: 30px;
+                padding-top: 0px;
                 padding-bottom: 15px;
             }
 
         .navbar-nav.navbar-right:last-child {
-            margin-right: -15px;
+            margin-right: 0px;
         }
 }
 
