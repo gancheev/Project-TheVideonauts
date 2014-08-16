@@ -6,11 +6,20 @@
     padding-top: 100px;
     padding-bottom: 100px;
 }
-
+.pad-our-mission {
+    padding-top: 150px;
+}
+.pad-buttons-bottom {
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
 .btn-rounded {
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+
 }
 .totop {
     position:fixed;
