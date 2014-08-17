@@ -1215,7 +1215,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
         color: #777;
     }
 
-h1, .h1, h2, .h2, h3, .h3 {
+h1, .h1, h3, .h3 {
     margin-top: 20px;
     margin-bottom: 10px;
 }
@@ -3854,10 +3854,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
         }
 
             .nav > li > a:hover, .nav > li > a:focus {
-                text-decoration: underline;
-                 transform: rotate(5deg);
-                 background-color: #008cff;
-                 border-radius: 10px;
+                
                 
                 
             }
@@ -4906,16 +4903,8 @@ a.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
     margin-left: 3px;
 }
 
-.jumbotron {
-    height: 100%;
-    padding: 30px;
-    margin-bottom: 30px;
-    color: inherit;
-    background-image: url("../images/bgr_main_and_whyworkwithus_2.png");
-}
-
     .jumbotron h1, .jumbotron .h1 {
-        color: #fff;
+        
     }
 
     .jumbotron p {
@@ -4948,7 +4937,7 @@ a.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
     }
 
     .jumbotron h1, .jumbotron .h1 {
-        font-size: 63px;
+        
     }
 }
 
