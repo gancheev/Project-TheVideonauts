@@ -204,6 +204,23 @@ colored-title {
     font-weight: bold;
     text-decoration: none;
 }
+/*PAGE font-face-uri WORK WITH US*/
+.work {
+    background-image: url(../images/whyworkwithusBACK.png);
+}
+.why-work {
+    padding-top: 50px;
+    color: #fff;
+}
+.work-head {
+    color: #fff;
+}
+.colored-work {
+    color: #fff;
+}
+.work-with-us .article-work {
+    width: 30%;
+}
 @media screen and (max-width:680px) {
 
    .video-menu  nav  ul  li a {
