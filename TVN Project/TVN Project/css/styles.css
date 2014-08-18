@@ -1,143 +1,128 @@
-﻿.white {
-    color:white;
+﻿section {
+    width: 100%;
+     margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    display: inline-block;
+    
+}
+.foton1{
+
+}
+.foton {
+    position:absolute;
+    background:#fff;
+    width:65px;
+    height:60px;
+    border-radius:100px;
+    margin-top:13.5%;
+    margin-left:11%;
+    
+    
+   
+}
+
+.blogtext {
+    font-size:small;
+}
+article {
+    width: 40%;
+    display: inline-block;
+    float:left;
+    margin-left:60px;
+   
+
+}
+section div {
+     margin-left:16%;
+}
+
+.white {
+    color: white;
     margin-left: auto;
     margin-right: auto;
 }
-/* Effect 21: borders slight translate */
-.cl-effect-21 a {
-	padding: 30px;
-	color: red;
-	font-weight: 700;
-	text-shadow: none;
-	-webkit-transition: color 0.3s;
-	-moz-transition: color 0.3s;
-	transition: color 0.3s;
-}
 
-.cl-effect-21 a::before,
-.cl-effect-21 a::after {
-	position: absolute;
-	left: 0;
-	width: 100%;
-	height: 2px;
-	background: #0972b4;
-	content: '';
-	opacity: 0;
-	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
-	-moz-transition: opacity 0.3s, -moz-transform 0.3s;
-	transition: opacity 0.3s, transform 0.3s;
-	-webkit-transform: translateY(-10px);
-	-moz-transform: translateY(-10px);
-	transform: translateY(-10px);
-}
 
-.cl-effect-21 a::before {
-	top: 0;
-	-webkit-transform: translateY(-10px);
-	-moz-transform: translateY(-10px);
-	transform: translateY(-10px);
-}
 
-.cl-effect-21 a::after {
-	bottom: 0;
-	-webkit-transform: translateY(10px);
-	-moz-transform: translateY(10px);
-	transform: translateY(10px);
-}
-
-.cl-effect-21 a:hover,
-.cl-effect-21 a:focus {
-	color: #fff;
-}
-
-.cl-effect-21 a:hover::before,
-.cl-effect-21 a:focus::before,
-.cl-effect-21 a:hover::after,
-.cl-effect-21 a:focus::after {
-	opacity: 1;
-	-webkit-transform: translateY(0px);
-	-moz-transform: translateY(0px);
-	transform: translateY(0px);
-}
-.latest-from-blog {
-    color: #474747;
-    font-size:34px;
-    text-align: center;
-    padding-top:10px;
-}
 .map {
     background-image: url(../images/map_freelancers.png);
 }
+
 .talent-map {
     color: #474747;
-    font-size:34px;
+    font-size: 34px;
     text-align: center;
 }
+
 .freelancer-man {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.freelancer-man img { 
-    margin-left: 54%;
-    border-radius: 100px;
-    border: 5px solid #fff;
-    vertical-align:bottom;
-}
+
+    .freelancer-man img {
+        margin-left: 54%;
+        border-radius: 100px;
+        border: 5px solid #fff;
+        vertical-align: bottom;
+    }
+
 .jumbotron {
-    height: 100%;
+    
     padding: 30px;
     color: inherit;
 }
+
 .latest-blog {
-    background-color: #fff;
-    height: 1000px;
-    
 }
-.latest-blog img {
-    float:left;
-    margin-right: 60px;
-}
-.images-blog {
-    overflow: hidden;
-    margin-left: 310px;
-}
+
+
+
 .mission {
     background-image: url("../images/bgr_main_and_whyworkwithus_2.png");
 }
+
 .map #icon-planet {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
 .next-to-img {
     color: #474747;
     font-size: 28px;
 }
+
 .mission {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
 .pad-our-mission {
     padding-top: 150px;
     color: #fff;
     font-size: 63px;
 }
+
 .pad-buttons-bottom {
     padding-bottom: 100px;
     padding-top: 20px;
 }
+
 .btn-rounded {
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 40px;
     margin-left: 40px;
     margin-right: 40px;
-
 }
+
 .totop {
-    position:fixed;
-    bottom:5px;
-    right:5px;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 49px;
+    height: 80px;
 }
 
 .yellow {
@@ -213,6 +198,7 @@
         margin-left: 400px;
     }
 }
+
 @media screen and (max-width:964px) {
 
     .logo {
@@ -223,15 +209,14 @@
         margin-left: 250px;
     }
 }
+
 @media screen and (max-width:946px) {
 
     .logo {
-         position:fixed;
-         top:0px;
-         
-         left:0;
+        position: fixed;
+        top: 0px;
+        left: 0;
     }
-
 }
 
 
@@ -254,32 +239,33 @@
     }
 }
 
+@media screen and (max-width:680px) {
+
+    .images-blog {
+        overflow: hidden;
+        margin-left: 10px;
+    }
+}
+
 @media screen and (max-width:610px) {
 
     .mini-menu ul {
         margin-left: 0px;
     }
-    
 }
+
 @media screen and (max-width:510px) {
 
     span {
-        
-        display:none;
+        display: none;
     }
-    
 }
+
 @media screen and (max-width:422px) {
 
     .freelancer-man img {
         margin-left: 50px;
     }
-    
 }
-@media screen and (max-width:680px) {
 
-    .images-blog {
-    overflow: hidden;
-    margin-left: 10px;
-    }
-}
+
