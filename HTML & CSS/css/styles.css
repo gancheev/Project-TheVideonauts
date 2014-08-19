@@ -206,10 +206,14 @@ colored-title {
 }
 /*PAGE font-face-uri WORK WITH US*/
 .work {
-    background-image: url(../images/whyworkwithusBACK.png);
+    background-image: url(../images/whyworkBACK.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:initial;
+    padding-bottom:30px;
 }
 .why-work {
-    padding-top: 50px;
+    padding-top:30px;
     color: #fff;
 }
 .work-head {
@@ -217,10 +221,93 @@ colored-title {
 }
 .colored-work {
     color: #fff;
+    
 }
-.work-with-us .article-work {
+.work-with-us {
+    width:100%;
+}
+.article-work {
     width: 30%;
+    padding-bottom:50px;
 }
+/* PAGE FOUR - FREELANCERS*/
+.freelancers img {
+    max-height:300px;
+}
+div.imagees{  
+    position:relative;  
+}  
+div.description{  
+    position:absolute; 
+    bottom:0px; 
+    left:-10px;  
+    display:inline-block;       
+    font-family: Lato 'Footlight MT'; 
+    font-size:30px;  
+    color:white;  
+}  
+div.description_content{  
+    padding-bottom:50%;
+    padding-left:14%;
+    font-size:25px;
+}  
+.video-text-right {
+    padding-left:30%;
+}
+.description_content h1{
+    font-size:100px;
+    padding:0;
+    margin:0;
+}
+.freelancers section {
+    width:100%;
+    
+}
+.freelancers section article {
+    margin-left:12%;
+    width:30%;
+    display:inline-block;
+}
+.width {
+    width:100%;
+}
+/*PAGE CONTACT FORM*/
+
+.contactform {
+    background-color:#61C2E5;
+}
+.contactform section {
+    width:100%;
+}
+.contactform section article {
+    display:inline-block;
+    width:40%;
+}
+.contactform section article img {
+    max-height:30px;
+    padding-left:30px;
+}
+.contactform section article p img {
+    max-height:40px;
+    margin-bottom:20px;
+    margin-left:20px;
+}
+.footers {
+   background-image: url(../images/map_clients_and_footer.jpg);
+   text-align:right;
+}
+.footers ul {
+    margin-right:20%;
+}
+.footers ul li {
+    text-decoration:none;
+    list-style:none;
+    display:inline-block;
+    text-align:right;
+    
+}
+
+
 @media screen and (max-width:680px) {
 
    .video-menu  nav  ul  li a {
