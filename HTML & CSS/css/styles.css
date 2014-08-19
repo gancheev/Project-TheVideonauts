@@ -47,6 +47,7 @@ section div {
     color: white;
     margin-left: auto;
     margin-right: auto;
+   
 }
 
 
@@ -272,7 +273,72 @@ div.description_content{
     width:100%;
 }
 /*PAGE CONTACT FORM*/
+#input-field {
+    padding-left:10px;
+    border: 1px solid white;
+    color: black;
+    background: none;
+    height: 35px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+    ::-webkit-input-placeholder {
+   color: white;
+}
 
+:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;  
+}
+
+#input-field:focus {
+    background: white;
+    
+}
+select {
+    padding-left: 10px;
+    border: 1px solid white;
+    color: white;
+    background: none;
+    height: 35px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+option {
+    color: black;
+}
+#submit-request {
+    border: 1px solid white;
+    color: #474747;
+    background: #ffd202;
+    height: 35px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+#submit-request:hover {
+    border: 1px solid white;
+    color: #474747;
+    background: orange;
+    font-weight: bold;
+    height: 35px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.fixed-heads {
+    font-size: 1.7em;
+}
+.txt {
+    color: white;
+}
+.footer-txt {
+    margin-left: 30px;
+    color: white;
+    font-size: 18px;
+    float: left;
+}
 .contactform {
     background-color:#61C2E5;
 }
@@ -306,8 +372,14 @@ div.description_content{
     text-align:right;
     
 }
-
-
+.footers ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+.footers ul li a:hover {
+    color: #61C2E5;
+}
 @media screen and (max-width:680px) {
 
    .video-menu  nav  ul  li a {
@@ -407,8 +479,23 @@ div.description_content{
 }
 
 @media screen and (max-width:422px) {
-
     .freelancer-man img {
         margin-left: 50px;
     }
 }
+@media screen and (max-width:400px) {
+        #input-field, #submit-request, select {
+        width: 200px;
+        margin-left: 5px;
+    }
+    #submit-request:hover {
+        width: 200px;
+    }
+    .footers ul li {
+        width: 100%;
+        background: none;
+    }   
+}
+
+
+

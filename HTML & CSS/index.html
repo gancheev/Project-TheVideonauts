@@ -298,11 +298,11 @@
                 <div class="row">
                     <section>
                         <article>
-                            <h2 class="center-block white text-uppercase"> Request a consultation</h2>
+                            <h2 class="center-block white text-uppercase fixed-heads"> Request a consultation</h2>
                             <form name="contact" method="post" action="#">
-                                <input type="text" name="name" autocomplete="on" autofocus placeholder="Your name" required />
+                                <input id="input-field" type="text" name="name" autocomplete="on" autofocus placeholder="Your name" required />
                                 <br />
-                                <input type="email" name="email" autocomplete="on" placeholder="Your e-mail" required />
+                                <input id="input-field" type="email" name="email" autocomplete="on" placeholder="Your e-mail" required />
                                 <br />
                                 <select>
                                     <option value="Select Project">Select Project</option>
@@ -312,19 +312,19 @@
                                     <option value="4">#4</option>
                                 </select>
                                 <br />
-                                <input type="submit" class="text-uppercase" value="SUBMIT REQUEST" />
+                                <input id="submit-request" type="submit" class="text-uppercase" value="SUBMIT REQUEST" />
                             </form>
                         </article>
                         <article>
-                            <h2 class="center-block white text-uppercase">Stay connected</h2>
+                            <h2 class="center-block white text-uppercase fixed-heads">Stay connected</h2>
                             <a href="https://www.facebook.com/"><img src="images/facebook-ico.png" /></a>
                             <a href="https://twitter.com/"><img src="images/twitter-ico.png" /></a>
                             <a href="https://plus.google.com/"><img src="images/google-plus-256.png" /></a>
                             <a href="https://www.youtube.com/?hl=bg"><img src="images/YouTube_light_color_icon.png" /></a>
                             <br />
                             <br />
-                            <p>
-                                Have a question<br /> chat with us!<img src="images/bubble.png" />
+                            <p class="txt">
+                                Have a question ?<br /> chat with us!<img src="images/bubble.png" />
                             </p>
                         </article>
                     </section>
@@ -332,6 +332,9 @@
             </div>
             <img src="images/footer-connect.png" class="width" />
             <div class="jumbotron footers">
+                <p class="footer-txt">
+                    &copy;The Videonauts
+                </p>
                 <ul>
                 	<li><a href="#">About</a></li>
                 	<li><a href="#">Blog</a></li>
